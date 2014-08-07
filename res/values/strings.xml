@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="app_name">ISense</string>
+    <string name="welcome">Welcome To ISense!</string>
+    
+    <string name="normal_task_yes">是</string>
+    <string name="normal_task_no">否</string>
+    
+    <string name="userinfo_taskhistory">任务记录</string>
+    
+    <string name="tomap">选择发布任务的目标地点</string>
+    
+    <string name="ol_tvTitle">任务标题</string>
+    <string name="ol_btnSend">发布任务</string>
+    <string name="ol_btnCancel">取消</string>
+    <string name="hintTask">编辑任务内容，不超过50字</string>
+    <string name="coins_title">请选择悬赏积分</string>
+    
+    <string name="yourloc">您当前位于</string>
+    <string name="placename">篮球场</string>
+    <string name="taskava">,附近可以接受的任务有：</string>
+    
+    <string name="hintname">请输入账号</string>
+    <string name="hintpwd">请输入密码</string>
+    
+     <string name="notification">click</string>
+     <string name="tv">notice temp</string>
+     <string name="classify">任务回复筛选</string>
+     <string name="ok">OK</string>
+     <string name="readnext">next</string>
+     <string name="choiceit">最佳回复！</string>
+     <string name="chooselocation">请选择任务的目标区域</string>
+     <string name="reply_from">Reply From Mary</string>
+     
+</resources>

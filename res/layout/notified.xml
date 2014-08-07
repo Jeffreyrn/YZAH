@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:background="@drawable/myinfobkg">					<!-- 声明线性布局 -->
+	
+	<TextView
+		android:id="@+id/reply_state"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/gray"
+  		android:textSize="20dip"
+  		android:paddingLeft="10dip"
+  		android:text="@string/reply_from"
+	/>
+	
+	<ImageView
+		android:id="@+id/reply_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:src="@drawable/reply_basketball"
+		/>								<!-- 声明EditText控件 -->
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		><Button
+			android:id="@+id/choice_it"
+			android:text="@string/choiceit"
+			android:layout_width="120px"
+			android:layout_height="wrap_content"
+			/>
+		<Button
+			android:id="@+id/read_it"
+			android:text="@string/readnext"
+			android:layout_width="120px"
+			android:layout_height="wrap_content"
+			/></LinearLayout>
+</LinearLayout>

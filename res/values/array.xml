@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="msa">
+     <item>1</item>
+     <item>2</item>
+     <item>5</item>
+     <item>8</item>
+     <item>10</item>
+  </string-array>
+  
+  <string-array name="msb">
+     <item>只看好友的</item>
+     <item>根据可信度排列的</item>
+     <item>只看有照片的</item>
+  </string-array>
+</resources>

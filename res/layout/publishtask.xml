@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/wallback">
+  
+  <Button android:id="@+id/buttonmap" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="@string/tomap"
+  />
+    <LinearLayout
+		android:orientation="horizontal"		
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="25dp"
+		>
+		<TextView
+			android:text="@string/ol_tvTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+		<EditText
+			android:id="@+id/ol_etTitle"	
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			/>
+	</LinearLayout>	
+	<EditText
+		android:id="@+id/ol_etDiary"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:lines="5"
+		android:hint="@string/hintTask"
+		/>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		><Button
+			android:id="@+id/ol_btnDiary"
+			android:text="@string/ol_btnSend"
+			android:layout_width="120px"
+			android:layout_height="wrap_content"
+			/>
+		<Button
+			android:id="@+id/ol_btnDiaryBack"
+			android:text="@string/ol_btnCancel"
+			android:layout_width="120px"
+			android:layout_height="wrap_content"
+			/></LinearLayout>
+</LinearLayout>
